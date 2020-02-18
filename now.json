@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "alias": "confluenza",
+  "builds": [
+    { "src": "package.json", "use": "@now/static-build", "config": {"distDir": "public"} }
+  ],
+  "routes": [
+    { "handle": "filesystem" },
+    {
+      "src": "(.*)",
+      "dest": "/404/",
+      "continue": true
+    }
+  ],
+  "scope": "artbea"
+}
