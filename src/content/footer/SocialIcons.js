@@ -36,7 +36,7 @@ const SocialIcons = ({ data }) => (
   >
     <a href='https://twitter.com/artbea_photo'><SocialIcon imageUrl={getImage(data, 'Twitter')} /></a>
     {/* <a href='https://twitter.com/identity_box'><SocialIcon imageUrl={getImage(data, 'Youtube')} css={{ width: '46px' }} /></a> */}
-    <a href='https://github.com/artbea/artbea'><SocialIcon imageUrl={getImage(data, 'GitHub')} /></a>
+    <a href='https://github.com/artbea/artbea-documentation'><SocialIcon imageUrl={getImage(data, 'GitHub')} /></a>
   </SocialIconsRow>
 )
 

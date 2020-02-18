@@ -62,7 +62,7 @@ const Header = () => (
         <LogoText>artbea documentation</LogoText>
       </Logo>
       <Menu>
-        <MenuLinkExternal href='https://github.com/artbea/artbea' target='_blank'>Github</MenuLinkExternal>
+        <MenuLinkExternal href='https://github.com/artbea/artbea-documentation' target='_blank'>Github</MenuLinkExternal>
         <MenuLinkExternal href='https://twitter.com/artbea_photo' target='_blank'>Twitter</MenuLinkExternal>
         {/* <MenuLink
         css={{
